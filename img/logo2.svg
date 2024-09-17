@@ -1,0 +1,19 @@
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fundo preto -->
+    <rect width="100%" height="100%" fill="#000000" />
+    
+    <!-- Texto "Code" em cinza -->
+    <text x="50" y="130" font-family="Arial, sans-serif" font-size="80" fill="#808080">Code</text>
+    
+    <!-- Texto "Connect" em branco -->
+    <text x="300" y="130" font-family="Arial, sans-serif" font-size="80" fill="#FFFFFF">Connect</text>
+    
+    <!-- Corrente fluorescente para representar conexão -->
+    <!-- Primeiro elo -->
+    <ellipse cx="200" cy="100" rx="30" ry="15" fill="none" stroke="#39FF14" stroke-width="5" />
+    <!-- Segundo elo -->
+    <ellipse cx="250" cy="100" rx="30" ry="15" fill="none" stroke="#39FF14" stroke-width="5" transform="rotate(90 250 100)" />
+    <!-- Terceiro elo -->
+    <ellipse cx="300" cy="100" rx="30" ry="15" fill="none" stroke="#39FF14" stroke-width="5" />
+  </svg>
+  

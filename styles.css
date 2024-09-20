@@ -124,6 +124,7 @@ texarea {
 
 .lista-tags {
     display: flex;
+    gap: 8px;
 }
 
 .container-botoes {
@@ -235,4 +236,13 @@ texarea {
     gap: 8px;
     color: var(--secondary-color);
     font-size: 15px;
+}
+
+.remove-tag {
+    background-color: #807979;
+    color: var(--background-color);
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
 }
